@@ -60,5 +60,9 @@
       <Project>{BFA01076-A2AF-4978-9916-A938354AE41F}</Project>
       <Name>Travis-CI-nspec</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Dependencies\Dependencies.csproj">
+      <Project>{6D741EDF-69FE-423F-907C-6C4DB342BE61}</Project>
+      <Name>Dependencies</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>12.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BFA01076-A2AF-4978-9916-A938354AE41F}</ProjectGuid>
+    <ProjectGuid>{6D741EDF-69FE-423F-907C-6C4DB342BE61}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>TravicCinspec</RootNamespace>
-    <AssemblyName>Travic-Ci-nspec</AssemblyName>
+    <RootNamespace>Dependencies</RootNamespace>
+    <AssemblyName>Dependencies</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,13 +33,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SomeClass.cs" />
+    <Compile Include="ToolKit\Collections\OrderedSet.cs" />
+    <Compile Include="ToolKit\Misc\DelayedCall.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Dependencies\Dependencies.csproj">
-      <Project>{6D741EDF-69FE-423F-907C-6C4DB342BE61}</Project>
-      <Name>Dependencies</Name>
-    </ProjectReference>
+    <Folder Include="ToolKit\" />
   </ItemGroup>
 </Project>

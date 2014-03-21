@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travis-CI-nspec", "Travis-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{32519232-A3A2-44D4-A1BB-9503C8B15399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependencies", "Dependencies\Dependencies.csproj", "{6D741EDF-69FE-423F-907C-6C4DB342BE61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{32519232-A3A2-44D4-A1BB-9503C8B15399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32519232-A3A2-44D4-A1BB-9503C8B15399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32519232-A3A2-44D4-A1BB-9503C8B15399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D741EDF-69FE-423F-907C-6C4DB342BE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D741EDF-69FE-423F-907C-6C4DB342BE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D741EDF-69FE-423F-907C-6C4DB342BE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D741EDF-69FE-423F-907C-6C4DB342BE61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BFA01076-A2AF-4978-9916-A938354AE41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BFA01076-A2AF-4978-9916-A938354AE41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA01076-A2AF-4978-9916-A938354AE41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
