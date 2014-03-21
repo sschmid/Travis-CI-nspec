@@ -4,4 +4,4 @@ install:
 - sudo apt-get install mono-devel mono-gmcs
 
 script:
-- ./Tests/build.sh
+- ./build.sh
