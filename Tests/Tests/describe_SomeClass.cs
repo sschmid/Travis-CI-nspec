@@ -5,8 +5,8 @@ class describe_SomeClass : nspec {
         new SomeClass().should_not_be_null();
     }
 
-    void it_fails() {
-        new SomeClass().should_be_null();
-    }
+//    void it_fails() {
+//        new SomeClass().should_be_null();
+//    }
 }
 
