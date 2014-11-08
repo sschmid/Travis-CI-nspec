@@ -9,5 +9,7 @@ class describe_SomeClass : nspec {
     void it_can_use_dependencies() {
         new OrderedSet<object>().should_not_be_null();
     }
+
+    can not compile
 }
 
